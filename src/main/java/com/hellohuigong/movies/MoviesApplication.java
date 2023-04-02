@@ -15,7 +15,8 @@ public class MoviesApplication {
 
 	@GetMapping("/root")
 	public String apiRoot() {
-		return "Hi Mom!";
+		var s = "Hi Mom!";
+		return s;
 	}
 
 }
